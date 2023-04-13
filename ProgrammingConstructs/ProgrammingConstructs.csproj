@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EligibilityForAdmission.cs" />
     <Compile Include="EligibilityForVoting.cs" />
     <Compile Include="EvenOrOdd.cs" />
     <Compile Include="LargestOfThreeNumbers.cs" />
