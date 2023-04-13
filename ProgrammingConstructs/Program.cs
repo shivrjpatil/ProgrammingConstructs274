@@ -11,7 +11,7 @@ namespace ProgrammingConstructs
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Programming constructs Programs");
-            Console.WriteLine("1.Two Number Equal or Not\n2.Even or Odd\n3.Candidate eligible For voting\n4.Largest of Three numbers\n5.Eligibility for admission\n6.Week of the day");
+            Console.WriteLine("1.Two Number Equal or Not\n2.Even or Odd\n3.Candidate eligible For voting\n4.Largest of Three numbers\n5.Eligibility for admission\n6.Week of the day\n7.Arithmetic Operation");
             int option=Convert.ToInt32(Console.ReadLine());
 
             switch(option)
@@ -39,6 +39,10 @@ namespace ProgrammingConstructs
                 case 6:
                     WeekDay weekDay=new WeekDay();
                     weekDay.Week();
+                    break;
+                case 7:
+                    AirthmaticOperation arithmetic=new AirthmaticOperation();
+                    arithmetic.Airthmatic();
                     break;
             }
 
