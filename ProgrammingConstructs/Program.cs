@@ -11,7 +11,7 @@ namespace ProgrammingConstructs
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Programming constructs Programs");
-            Console.WriteLine("1.Two Number Equal or Not\n2.Even or Odd\n3.Candidate eligible For voting");
+            Console.WriteLine("1.Two Number Equal or Not\n2.Even or Odd\n3.Candidate eligible For voting\n4.Largest of Three numbers");
             int option=Convert.ToInt32(Console.ReadLine());
 
             switch(option)
@@ -27,6 +27,10 @@ namespace ProgrammingConstructs
                 case 3:
                     EligibilityForVoting voting = new EligibilityForVoting();
                     voting.Vote();
+                    break;
+                case 4:
+                    LargestOfThreeNumbers largestOfThree=new LargestOfThreeNumbers();
+                    largestOfThree.Largest();
                     break;
             }
 
