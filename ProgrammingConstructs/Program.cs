@@ -11,6 +11,9 @@ namespace ProgrammingConstructs
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Programming constructs Programs");
+
+            TwoIntegersEqualOrNot twoint=new TwoIntegersEqualOrNot();
+            twoint.TwoNum();
             Console.ReadLine();
         }
     }
