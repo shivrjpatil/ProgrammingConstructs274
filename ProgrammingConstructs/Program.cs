@@ -11,9 +11,22 @@ namespace ProgrammingConstructs
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Programming constructs Programs");
+            Console.WriteLine("1.Two Number Equal or Not\n2.Even or Odd");
+            int option=Convert.ToInt32(Console.ReadLine());
 
-            TwoIntegersEqualOrNot twoint=new TwoIntegersEqualOrNot();
-            twoint.TwoNum();
+            switch(option)
+            {
+                case 1:
+                    TwoIntegersEqualOrNot twoint = new TwoIntegersEqualOrNot();
+                    twoint.TwoNum();
+                    break;
+                case 2:
+                    EvenOrOdd evenOrOdd = new EvenOrOdd();
+                    evenOrOdd.EvenOdd();
+                    break;
+            }
+
+           
             Console.ReadLine();
         }
     }
