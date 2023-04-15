@@ -48,6 +48,7 @@
     <Compile Include="EligibilityForVoting.cs" />
     <Compile Include="EvenOrOdd.cs" />
     <Compile Include="LargestOfThreeNumbers.cs" />
+    <Compile Include="PowerofTwo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoIntegersEqualOrNot.cs" />
