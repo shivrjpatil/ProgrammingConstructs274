@@ -11,7 +11,7 @@ namespace ProgrammingConstructs
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Programming constructs Programs");
-            Console.WriteLine("1.Two Number Equal or Not\n2.Even or Odd\n3.Candidate eligible For voting\n4.Largest of Three numbers\n5.Eligibility for admission\n6.Week of the day\n7.Arithmetic Operation\n8.Power of two\n9.Sum of square of numbers\n10.Factorial of given Number\n11.FlipCoin\n12.Reverse Word");
+            Console.WriteLine("1.Two Number Equal or Not\n2.Even or Odd\n3.Candidate eligible For voting\n4.Largest of Three numbers\n5.Eligibility for admission\n6.Week of the day\n7.Arithmetic Operation\n8.Power of two\n9.Sum of square of numbers\n10.Factorial of given Number\n11.FlipCoin\n12.Reverse Word\n13.Sum of Five Natural numbr");
             int option=Convert.ToInt32(Console.ReadLine());
 
             switch(option)
@@ -63,6 +63,10 @@ namespace ProgrammingConstructs
                 case 12:
                     ReverseWord reverseWord=new ReverseWord();  
                     reverseWord.Reverse();
+                    break;
+                case 13:
+                    SumofFiveNumbers sumofFiveNumbers=new SumofFiveNumbers();
+                    sumofFiveNumbers.Sum();
                     break;
             }
 
